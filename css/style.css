@@ -125,7 +125,6 @@ button{
     border: none;
     border-radius: 5px;
     background-color: #70C5DA;
-    text-transform: uppercase;
 }
 
 button:hover{
