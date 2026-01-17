@@ -2,6 +2,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+h3{
+    color: #686766
+}
+
   
   /*COLUMNAS*/
 
@@ -24,12 +31,12 @@
 }
 
 body {
-    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5%;
 }
 
 .opciones {
@@ -86,10 +93,9 @@ h2{
 
 .juego {
     display: flex;
-    justify-content: center;   /* centra horizontalmente */
-    align-items: center;   /* alinea arriba */
-    gap: 40px;                 /* espacio entre los bloques */
-    margin-top: 20px;
+    justify-content: center;   
+    align-items: center; 
+    gap:40px;               margin-top: 20px;
 }
 
 .divDerecha {

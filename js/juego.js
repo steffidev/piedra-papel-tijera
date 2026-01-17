@@ -75,5 +75,5 @@ tiradas++;
     outJugadas.innerText = 'Partidas jugadas: '+ tiradas;
     outGanadas.innerText = 'Partidas ganadas: '+ ganadas;
     outEmpatadas.innerText = 'Partidas empatadas: '+ empates;
-    outPerdidas.innerText = 'Partidas perdidas: juego.js'+ derrotas;
+    outPerdidas.innerText = 'Partidas perdidas: '+ derrotas;
 }
