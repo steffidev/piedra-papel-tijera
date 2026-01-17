@@ -36,7 +36,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* espacio entre las imágenes */
     gap: 2%;              
     margin-bottom: 4%;
 }
@@ -102,7 +101,7 @@ h2{
 
 .ganador{
     border-radius: 10px;
-    background-color: #f4b0bf;
+    background-color: #d1ccc6;
     padding: 2%;
 
 }
