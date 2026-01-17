@@ -24,7 +24,7 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,7 +74,7 @@ h2{
 #outResultado{
     font-weight: bold;
     text-align: center;
-    color: red;
+    color: black;
     font-size: 1.8em
 }
 
@@ -82,7 +82,7 @@ h2{
     text-align: center;
     padding: 20px 40px;
     border-radius: 4%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .juego {
@@ -91,4 +91,18 @@ h2{
     align-items: center;   /* alinea arriba */
     gap: 40px;                 /* espacio entre los bloques */
     margin-top: 20px;
+}
+
+.divDerecha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ganador{
+    border-radius: 10px;
+    background-color: #f4b0bf;
+    padding: 2%;
+
 }

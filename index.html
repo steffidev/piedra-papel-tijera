@@ -11,56 +11,61 @@
 
 <body>
 
-    <header class="centrado">
-        <img src="images/Captura de pantalla 2026-01-16 125808.png" alt="titulo" width="400">    
-
-    </header>
-
     <div class="juego">
 
-    <div class="entornoJuego">
-        <br>
-        <div class="flex-container">
-            <div class="flex1">
-                <h3>JUGADOR</h3>
-                <img src="images/JUEGO.png" alt="jugadaJugador" width="200" id="imgJugador">
+        <div class="entornoJuego">
+            <br>
+            <div class="flex-container">
+                <div class="flex1">
+                    <h3>JUGADOR</h3>
+                    <img src="images/JUEGO.png" alt="jugadaJugador" width="200" id="imgJugador">
+                </div>
+                <div class="flex1">
+                    <h3>CPU</h3>
+                    <img src="images/JUEGO2.png" alt="jugadaCpu" id="imgCPU" width="200" id="imgCpu">
+                </div>
             </div>
-            <div class="flex1">
-                <h3>CPU</h3>
-                <img src="images/JUEGO2.png" alt="jugadaCpu" id="imgCPU" width="200" id="imgCpu">
+
+             <div class="ganador">
+                <output id="outResultado">¿Estas preparado?</output>
+            </div>
+
+
+
+            <h2>Elige tu jugada</h2>
+            <div class="opciones">
+                <img src="images/piedra.jpg" onclick="jugar('piedra')" width="200">
+                <img src="images/papel.jpg" onclick="jugar('papel')" width="200">
+                <img src="images/tijera.jpg" onclick="jugar('tijera')" width="200">
             </div>
         </div>
 
-        
+        <div class="divDerecha">
 
-        <h2>Elige tu jugada</h2>
-        <div class="opciones">
-            <img src="images/piedra.jpg" onclick="jugar('piedra')" width="200">
-            <img src="images/papel.jpg" onclick="jugar('papel')" width="200">
-            <img src="images/tijera.jpg" onclick="jugar('tijera')" width="200">
-        </div>
+            <div class="centrado">
+
+                <img src="images/logo.png" alt="titulo" width="400">
+
+            </div>
+
+            <div class="resultados">
+
+
+
+                <h2>Recuento de partidas</h2>
+                <output id="outJugadas">Partidas jugadas:</output>
+                <br>
+                <output id="outGanadas">Partidas ganadas:</output>
+                <br>
+                <output id="outEmpatadas">Partidas empatadas:</output>
+                <br>
+                <output id="outPerdidas">Partidas perdidas:</output>
+                <br>
+            </div>
+           
+
     </div>
-
-
-    <div class="resultados">
-
-         
-        
-        <h2>Recuento de partidas</h2>
-        <output id="outJugadas">Partidas jugadas:</output>
-        <br>
-        <output id="outGanadas">Partidas ganadas:</output>
-        <br>
-        <output id="outEmpatadas">Partidas empatadas:</output>
-        <br>
-        <output id="outPerdidas">Partidas perdidas:</output>
-        <br>
-    <div>
-        <p id="outResultado"></p>
-    </div>
-    </div>
-</div>
-
+    
 </body>
 
 </html>
