@@ -11,6 +11,33 @@
 
 <body>
 
+    <dialog id="modal">
+            <h2>INSTRUCCIONES DEL JUEGO</h2>
+
+        
+                <p>Elige una de las tres opciones:</p>
+            
+                <img src="images/reglas.png" alt="piedra" width="400">
+                <br>
+                <h2>¿Quien gana?</h2>
+                
+
+                <ul> 
+                <li>La Piedra gana a las Tijeras (las rompe)</li>
+                <br>
+                <li>Las Tijeras ganan al Papel (lo cortan)</li>
+                <br>
+                <li>El Papel gana a la Piedra (la envuelve)</li>
+                <br>
+                 <li>Si ambos sacáis lo mismo empatáis y volvéis a jugar</li>
+                  </ul>
+                <br>
+                <br>
+                <button onclick="window.modal.close();">Cerrar</button>
+           
+            
+        </dialog>
+
     <div class="juego">
 
         <div class="entornoJuego">
@@ -26,7 +53,7 @@
                 </div>
             </div>
 
-             <div class="ganador">
+            <div class="ganador">
                 <output id="outResultado">¿Estas preparado?</output>
             </div>
 
@@ -38,6 +65,7 @@
                 <img src="images/papel.jpg" onclick="jugar('papel')">
                 <img src="images/tijera.jpg" onclick="jugar('tijera')">
             </div>
+          
         </div>
 
         <div class="divDerecha">
@@ -61,12 +89,13 @@
                 <br>
                 <output id="outPerdidas">Partidas perdidas:</output>
                 <br>
-    
+
             </div>
 
             <button onclick="reiniciar()">Reiniciar contador</button>
-           
-    </div>
+            <button id="jugar" onclick="window.modal.showModal()">¿Como se juega?</button>
+
+        </div>
 
 </body>
 
