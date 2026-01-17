@@ -111,3 +111,24 @@ h2{
     padding: 2%;
 
 }
+
+.opciones img{
+    width: 200px;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    padding: 8px 20px;
+    margin: 4px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #70C5DA;
+}
+
+button:hover{
+    background-color: #BDB9B9;
+    cursor: pointer;
+    transform: scale(1.05);
+  
+}

@@ -77,3 +77,13 @@ tiradas++;
     outEmpatadas.innerText = 'Partidas empatadas: '+ empates;
     outPerdidas.innerText = 'Partidas perdidas: '+ derrotas;
 }
+
+function reiniciar(){
+    outJugadas.innerText = "Partidas jugadas: "
+    outGanadas.innerText = "Partidas ganadas: "
+    outEmpatadas.innerText = "Partidas empatadas: "
+    outPerdidas.innerText = "Partidas perdidas: "
+    outResultado.innerText = "¿Estas preparado?"
+    imgJugador.src = "images/JUEGO.png"
+    imgCPU.src = "images/JUEGO2.png"
+}
